@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace对应一个mapper类-->
+<mapper namespace="com.lsq.mapper.OperateMapper">
+    <select id="getOperateList" resultType="com.lsq.entity.BucketRobotJob">
+        select robot_job_id,warehouse_id from bucket_robot_job where state = 'ENTER_STATION' and need_operation = 1
+    </select>
+</mapper>
