@@ -1,4 +1,4 @@
 com\lsq\entity\Agv.class
 com\lsq\mapper\AgvMapper.class
-com\lsq\utils\HttpUtils.class
 com\lsq\utils\MybatisUtils.class
+com\lsq\utils\HttpUtils.class
